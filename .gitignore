@@ -1,0 +1,10 @@
+bin/
+obj/
+.godot/
+.vs/
+.idea/
+*.user
+*.suo
+_release_staging/
+_release_verify/
+*.zip

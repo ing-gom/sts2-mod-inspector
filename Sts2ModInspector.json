@@ -1,0 +1,11 @@
+{
+  "id": "Sts2ModInspector",
+  "name": "Mod Inspector",
+  "author": "inggom",
+  "description": "같은 게임 함수를 두 개 이상의 모드가 동시에 Harmony 패치하는 충돌을 자동 감지해, 심각/주의 등급으로 메인 메뉴 코너에 가볍게 알려줍니다(클릭 시 탭 목록). '모드를 하나씩 꺼보기' 없이 충돌한 함수와 관련 모드를 한눈에. 읽기 전용 · 본인 클라이언트에만 적용 · 로드 순서/설정을 바꾸지 않음 · 멀티플레이 동기화에 영향 없음. 14개 언어.",
+  "version": "v1.0.0",
+  "has_pck": false,
+  "has_dll": true,
+  "dependencies": [],
+  "affects_gameplay": false
+}

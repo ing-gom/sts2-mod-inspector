@@ -44,4 +44,4 @@ your game's `mods/` directory. Launch with **Load with Mods**.
 
 MIT © 2026 inggom
 
-Author: inggom · `v1.0.0`
+Author: inggom · `v1.0.1`

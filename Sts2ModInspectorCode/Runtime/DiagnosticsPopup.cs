@@ -94,9 +94,12 @@ public static class DiagnosticsPopup
         closeBtn.Pressed += Close;
         buttons.AddChild(closeBtn);
 
+        // Click the dim backdrop (outside the panel) to close — LEFT button only, so mouse-wheel
+        // scrolling (which Godot reports as a pressed WheelUp/WheelDown InputEventMouseButton) does
+        // not close the popup.
         dim.GuiInput += @event =>
         {
-            if (@event is InputEventMouseButton { Pressed: true }) Close();
+            if (@event is InputEventMouseButton { Pressed: true, ButtonIndex: MouseButton.Left }) Close();
         };
 
         tree.Root.AddChild(layer);
